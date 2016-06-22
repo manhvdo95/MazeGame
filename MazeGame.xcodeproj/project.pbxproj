@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0DA8011D112C0C00EB1753 /* GameScene2.sks in Resources */ = {isa = PBXBuildFile; fileRef = BB0DA8001D112C0C00EB1753 /* GameScene2.sks */; };
+		BB0DA8031D113E4400EB1753 /* BMgermar.TTF in Resources */ = {isa = PBXBuildFile; fileRef = BB0DA8021D113E4400EB1753 /* BMgermar.TTF */; };
+		BB218ED11D1AF534005C0FD3 /* collect_something.caf in Resources */ = {isa = PBXBuildFile; fileRef = BB218ECE1D1AF534005C0FD3 /* collect_something.caf */; };
+		BB218ED21D1AF534005C0FD3 /* endgame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB218ECF1D1AF534005C0FD3 /* endgame.mp3 */; };
+		BB218ED31D1AF534005C0FD3 /* levelsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB218ED01D1AF534005C0FD3 /* levelsound.mp3 */; };
+		BB27415F1D0D30390015F624 /* Boundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB27415E1D0D30390015F624 /* Boundary.swift */; };
+		BB2741611D0D3C440015F624 /* Maze.tmx in Resources */ = {isa = PBXBuildFile; fileRef = BB2741601D0D3C440015F624 /* Maze.tmx */; };
+		BB2741631D0F59350015F624 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2741621D0F59350015F624 /* Star.swift */; };
+		BB2741651D10C69A0015F624 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2741641D10C69A0015F624 /* Enemy.swift */; };
+		BB2741671D11133D0015F624 /* GameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2741661D11133D0015F624 /* GameData.plist */; };
 		BB2B97C71D0A857D00147D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2B97C61D0A857D00147D72 /* AppDelegate.swift */; };
 		BB2B97C91D0A857D00147D72 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BB2B97C81D0A857D00147D72 /* GameScene.sks */; };
 		BB2B97CB1D0A857D00147D72 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2B97CA1D0A857D00147D72 /* GameScene.swift */; };
@@ -16,6 +26,8 @@
 		BB2B97D51D0A857D00147D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2B97D31D0A857D00147D72 /* LaunchScreen.storyboard */; };
 		BB2B97E01D0A857D00147D72 /* MazeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2B97DF1D0A857D00147D72 /* MazeGameTests.swift */; };
 		BB2B97EB1D0A857D00147D72 /* MazeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2B97EA1D0A857D00147D72 /* MazeGameUITests.swift */; };
+		BB2B97F91D0A865B00147D72 /* moving.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BB2B97F81D0A865B00147D72 /* moving.atlas */; };
+		BB2B97FC1D0A8FA200147D72 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2B97FB1D0A8FA200147D72 /* Hero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB0DA8001D112C0C00EB1753 /* GameScene2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene2.sks; sourceTree = "<group>"; };
+		BB0DA8021D113E4400EB1753 /* BMgermar.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMgermar.TTF; sourceTree = "<group>"; };
+		BB218ECE1D1AF534005C0FD3 /* collect_something.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = collect_something.caf; sourceTree = "<group>"; };
+		BB218ECF1D1AF534005C0FD3 /* endgame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = endgame.mp3; sourceTree = "<group>"; };
+		BB218ED01D1AF534005C0FD3 /* levelsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelsound.mp3; sourceTree = "<group>"; };
+		BB27415E1D0D30390015F624 /* Boundary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boundary.swift; sourceTree = "<group>"; };
+		BB2741601D0D3C440015F624 /* Maze.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Maze.tmx; sourceTree = "<group>"; };
+		BB2741621D0F59350015F624 /* Star.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		BB2741641D10C69A0015F624 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		BB2741661D11133D0015F624 /* GameData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
 		BB2B97C31D0A857D00147D72 /* MazeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2B97C61D0A857D00147D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB2B97C81D0A857D00147D72 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +73,8 @@
 		BB2B97E61D0A857D00147D72 /* MazeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2B97EA1D0A857D00147D72 /* MazeGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeGameUITests.swift; sourceTree = "<group>"; };
 		BB2B97EC1D0A857D00147D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2B97F81D0A865B00147D72 /* moving.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = moving.atlas; sourceTree = "<group>"; };
+		BB2B97FB1D0A8FA200147D72 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +102,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB0DA8041D113E6100EB1753 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BB0DA8021D113E4400EB1753 /* BMgermar.TTF */,
+				BB218ECE1D1AF534005C0FD3 /* collect_something.caf */,
+				BB218ECF1D1AF534005C0FD3 /* endgame.mp3 */,
+				BB218ED01D1AF534005C0FD3 /* levelsound.mp3 */,
+				BB2B97D61D0A857D00147D72 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		BB2B97BA1D0A857D00147D72 = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +139,20 @@
 			children = (
 				BB2B97C61D0A857D00147D72 /* AppDelegate.swift */,
 				BB2B97C81D0A857D00147D72 /* GameScene.sks */,
+				BB0DA8001D112C0C00EB1753 /* GameScene2.sks */,
+				BB2741661D11133D0015F624 /* GameData.plist */,
 				BB2B97CA1D0A857D00147D72 /* GameScene.swift */,
+				BB2741641D10C69A0015F624 /* Enemy.swift */,
+				BB2741621D0F59350015F624 /* Star.swift */,
+				BB2B97FB1D0A8FA200147D72 /* Hero.swift */,
+				BB27415E1D0D30390015F624 /* Boundary.swift */,
 				BB2B97CC1D0A857D00147D72 /* GameViewController.swift */,
 				BB2B97CE1D0A857D00147D72 /* Main.storyboard */,
+				BB2741601D0D3C440015F624 /* Maze.tmx */,
 				BB2B97D11D0A857D00147D72 /* Assets.xcassets */,
 				BB2B97D31D0A857D00147D72 /* LaunchScreen.storyboard */,
-				BB2B97D61D0A857D00147D72 /* Info.plist */,
+				BB0DA8041D113E6100EB1753 /* SupportingFiles */,
+				BB2B97FA1D0A866900147D72 /* Texture_Atlases */,
 			);
 			path = MazeGame;
 			sourceTree = "<group>";
@@ -129,6 +173,14 @@
 				BB2B97EC1D0A857D00147D72 /* Info.plist */,
 			);
 			path = MazeGameUITests;
+			sourceTree = "<group>";
+		};
+		BB2B97FA1D0A866900147D72 /* Texture_Atlases */ = {
+			isa = PBXGroup;
+			children = (
+				BB2B97F81D0A865B00147D72 /* moving.atlas */,
+			);
+			name = Texture_Atlases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +251,7 @@
 				TargetAttributes = {
 					BB2B97C21D0A857D00147D72 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = A9QYVHRXNB;
 					};
 					BB2B97DA1D0A857D00147D72 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -237,8 +290,16 @@
 			files = (
 				BB2B97C91D0A857D00147D72 /* GameScene.sks in Resources */,
 				BB2B97D51D0A857D00147D72 /* LaunchScreen.storyboard in Resources */,
+				BB218ED11D1AF534005C0FD3 /* collect_something.caf in Resources */,
+				BB218ED21D1AF534005C0FD3 /* endgame.mp3 in Resources */,
+				BB2741611D0D3C440015F624 /* Maze.tmx in Resources */,
+				BB218ED31D1AF534005C0FD3 /* levelsound.mp3 in Resources */,
 				BB2B97D21D0A857D00147D72 /* Assets.xcassets in Resources */,
+				BB2741671D11133D0015F624 /* GameData.plist in Resources */,
+				BB2B97F91D0A865B00147D72 /* moving.atlas in Resources */,
 				BB2B97D01D0A857D00147D72 /* Main.storyboard in Resources */,
+				BB0DA8011D112C0C00EB1753 /* GameScene2.sks in Resources */,
+				BB0DA8031D113E4400EB1753 /* BMgermar.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2741651D10C69A0015F624 /* Enemy.swift in Sources */,
 				BB2B97CB1D0A857D00147D72 /* GameScene.swift in Sources */,
 				BB2B97CD1D0A857D00147D72 /* GameViewController.swift in Sources */,
 				BB2B97C71D0A857D00147D72 /* AppDelegate.swift in Sources */,
+				BB2741631D0F59350015F624 /* Star.swift in Sources */,
+				BB2B97FC1D0A8FA200147D72 /* Hero.swift in Sources */,
+				BB27415F1D0D30390015F624 /* Boundary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,10 +474,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MazeGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paperdo.MazeGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paperdo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -420,10 +488,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MazeGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paperdo.MazeGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paperdo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -494,6 +565,7 @@
 				BB2B97F11D0A857D00147D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB2B97F21D0A857D00147D72 /* Build configuration list for PBXNativeTarget "MazeGameTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +574,7 @@
 				BB2B97F41D0A857D00147D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB2B97F51D0A857D00147D72 /* Build configuration list for PBXNativeTarget "MazeGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +583,7 @@
 				BB2B97F71D0A857D00147D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
